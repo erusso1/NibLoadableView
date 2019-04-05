@@ -1,0 +1,16 @@
+PODS:
+  - NibLoadableView (0.1.0)
+
+DEPENDENCIES:
+  - NibLoadableView (from `../`)
+
+EXTERNAL SOURCES:
+  NibLoadableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NibLoadableView: c0ee463e1988fba8ace39e626280c2988c2db2f1
+
+PODFILE CHECKSUM: 0c293fc8847e2e385b88d2992c6a84d88e455d17
+
+COCOAPODS: 1.6.1

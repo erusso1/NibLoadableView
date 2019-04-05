@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NibLoadableView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NibLoadableView.'
+  s.summary          = 'A UIView parent class to make XIB loading easy.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Make any of your UIView subclasses XIB loadable by setting NibLoadableView as your parent class, creating a .xib file with the same name as your view class, asigning the File Owner, and build you UI. Then in your View Controller, drag a blank UIView and set the custom class to your NibLoadableView subclass.'
 
   s.homepage         = 'https://github.com/erusso1/NibLoadableView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,7 +26,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/erusso1/NibLoadableView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'NibLoadableView/Classes/**/*'
   

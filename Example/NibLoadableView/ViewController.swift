@@ -10,9 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet private weak var customView: CustomView! {
+        
+        didSet {
+            
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.customView.configureFor(title: "Hey there buddy", image: UIImage(named: "clock"))
+
     }
 
     override func didReceiveMemoryWarning() {
