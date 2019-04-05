@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NibLoadableView_Example' do
+  pod 'NibLoadableView', :path => '../'
+
+  target 'NibLoadableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
