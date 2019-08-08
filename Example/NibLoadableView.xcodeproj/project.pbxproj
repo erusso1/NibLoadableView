@@ -295,15 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NibLoadableView_Example/Pods-NibLoadableView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/NibLoadableView/NibLoadableView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NibLoadableView.framework",
 			);

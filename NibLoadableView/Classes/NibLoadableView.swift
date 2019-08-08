@@ -26,13 +26,15 @@ open class NibLoadableView: UIView {
     
     // MARK: Computed Variables
     
+    open var bundle: Bundle { return Bundle(for: type(of: self)) }
+    
     /// The name of the .xib resource used to load the visual interface of the view. This property will always be computed as the String version of this view's class name.
     var nibName: String { return String(describing: type(of: self)) }
     
     /// The view property that gets loaded directly by the Nib.
     private lazy var externalView: UIView? = {
         
-        let bundle = Bundle(for: type(of: self))
+        let bundle = self.bundle
         let nib = UINib(nibName: nibName, bundle: bundle)
         return nib.instantiate(withOwner: self, options: nil).first as? UIView
     }()

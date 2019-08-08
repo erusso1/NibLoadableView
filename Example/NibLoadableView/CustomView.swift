@@ -27,6 +27,8 @@ class CustomView: NibLoadableView {
         }
     }
     
+    override var bundle: Bundle { return .main }
+    
     override func awakeFromNib() {
         
         super.awakeFromNib()
