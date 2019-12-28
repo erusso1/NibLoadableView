@@ -1,5 +1,5 @@
 PODS:
-  - NibLoadableView (0.1.0)
+  - NibLoadableView (1.0.1)
 
 DEPENDENCIES:
   - NibLoadableView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NibLoadableView: a6daaed7d9dc671764eac51d1b6be13745cff31b
+  NibLoadableView: 9309e86a2cca32187446acb825a0319730511194
 
 PODFILE CHECKSUM: 0c293fc8847e2e385b88d2992c6a84d88e455d17
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4
