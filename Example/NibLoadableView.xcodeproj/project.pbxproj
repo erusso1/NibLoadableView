@@ -15,6 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		C442315F57A41287B9098D8D /* Pods_NibLoadableView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806C56211D5BE5EE257CCCA3 /* Pods_NibLoadableView_Example.framework */; };
+		F336264A2563626C00B62DED /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33626492563626C00B62DED /* CustomButton.swift */; };
+		F336264E256362AA00B62DED /* CustomButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F336264D256362AA00B62DED /* CustomButton.xib */; };
 		F33F210222580D5D00361784 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F210122580D5D00361784 /* CustomView.swift */; };
 		F33F210422580D6B00361784 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33F210322580D6B00361784 /* CustomView.xib */; };
 /* End PBXBuildFile section */
@@ -48,6 +50,8 @@
 		B74BFD056202BAC26EC01EA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C13FE7EDF3E56891D21F15D3 /* Pods-NibLoadableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibLoadableView_Example.debug.xcconfig"; path = "Target Support Files/Pods-NibLoadableView_Example/Pods-NibLoadableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D86ABE6CC0C5914CEB560A16 /* Pods-NibLoadableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibLoadableView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NibLoadableView_Tests/Pods-NibLoadableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F33626492563626C00B62DED /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F336264D256362AA00B62DED /* CustomButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomButton.xib; sourceTree = "<group>"; };
 		F33F210122580D5D00361784 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		F33F210322580D6B00361784 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 		F3550961D436D9EB7A0F8BD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				F33F210322580D6B00361784 /* CustomView.xib */,
 				F33F210122580D5D00361784 /* CustomView.swift */,
+				F336264D256362AA00B62DED /* CustomButton.xib */,
+				F33626492563626C00B62DED /* CustomButton.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -254,6 +260,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				F33F210422580D6B00361784 /* CustomView.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				F336264E256362AA00B62DED /* CustomButton.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F336264A2563626C00B62DED /* CustomButton.swift in Sources */,
 				F33F210222580D5D00361784 /* CustomView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
