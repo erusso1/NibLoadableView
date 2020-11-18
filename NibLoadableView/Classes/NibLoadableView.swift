@@ -122,7 +122,7 @@ open class NibLoadableView: UIView {
  2. Apply constraints if needed.
  3. Set the custom class of the view to your `NibLoadableControl` subclass.
  */
-open class NibLoadbaleControl: UIControl {
+open class NibLoadableControl: UIControl {
     
     open var bundle: Bundle { return Bundle(for: type(of: self)) }
     
