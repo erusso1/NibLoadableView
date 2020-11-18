@@ -9,7 +9,7 @@
 import Foundation
 import NibLoadableView
 
-class CustomButton: NibLoadbaleControl {
+class CustomButton: NibLoadableControl {
     
     override func addTarget(_ target: Any?, action: Selector, for controlEvents: UIControl.Event) {
         
